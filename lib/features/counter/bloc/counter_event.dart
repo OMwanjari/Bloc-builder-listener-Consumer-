@@ -6,3 +6,5 @@ sealed class CounterEvent {}
 class CounterIncrementEvent extends CounterEvent {}
 
 class CounterDecreseEvent extends CounterEvent {}
+
+class CounterShowSnackbarEvent extends CounterEvent {}
